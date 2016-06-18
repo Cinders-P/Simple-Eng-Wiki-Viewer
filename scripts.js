@@ -14,7 +14,7 @@ $(function() {
         offset = -10;
         $("#results").empty();
         if ($("input[type=text]").val() === "") {
-            $("#form").css("justify-content", "center");
+            $(".jumbotron").css("justify-content", "center");
             return false;
         }
         addResults();
